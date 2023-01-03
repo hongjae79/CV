@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+
+<head>
+    <meta charset="UTF-8">
+    
+    <title>Contact Info</title>
+</head>
+<body>
+    <h3> Contact</h3>
+    <table>
+        <tr>
+            <td>Address</td>
+            <td>435 La Floresta Dr, Brea CA 92823</td>
+        </tr>
+        <tr>
+            <td>Phone</td>
+            <td>(213)249-8487</td>
+        </tr>
+        <tr>
+            <td>E-mail</td>
+            <td>jason.park@unlv.edu</td>
+        </tr>
+
+    </table>
+    <hr>
+    <h3>Leave your contact info.</h3>
+        <form action="mailto: jason.park@unlv.edu" method = "post" enctype = "text/plain">
+            <label for="">Enter your name:</label>
+            <input type="text" name="your name">
+            <br>
+            <label for="">Enter your email:</label>
+            <input type="email" name="your email">
+            <br>
+            <label for="">Are you a Hispanic?</label>
+            <br>
+            <label for="">Yes</label>
+            <input type="checkbox" name="hispanic yes">
+            <label for="">No</label>
+            <input type="checkbox" name="hispanic no">
+            <br>
+            <label for="">When is the best day to reach you?</label>
+            <input type="date" name="best day to reach">
+            <br>
+            <label for="">When is the best time to reach you?</label>
+            <input type="time" name="best time to reach">
+            
+            <br>
+            <label for="">Message</label>
+            <br>
+            <textarea name="your message" id="" cols="30" rows="10"></textarea>
+            <br>
+            <input type="submit">
+
+
+        </form>
+    
+</body>
+</html>
